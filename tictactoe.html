@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.core.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="app.js"></script>
+    </head>
+    
+    <body>
+
+        <div id = "main-container">
+            <div class = "container">
+                <div class = "box-2">
+                <h1>TIC TAC TOE</h1>
+                    <div class="row1">
+                        <div class="game">
+                            <div class="grid">
+                                <div class="row">
+                                    <div class="col" id=0></div>
+                                    <div class="col" id=1></div>
+                                    <div class="col" id=2></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col" id=3></div>
+                                    <div class="col" id=4></div>
+                                    <div class="col" id=5></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col" id=6></div>
+                                    <div class="col" id=7></div>
+                                    <div class="col" id=8></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="score">
+                            <h2>Score</h2>
+                            
+                            
+                            <p id="score">You: 0<br>Computer: 0</p>
+                      
+                            <div id="messageT" style="display: none;"><h1>TIE!</h1></div>
+                            <div id="messageW" style="display: none;"><h1>YOU WIN!</h1></div>
+                            <div id="messageL" style="display: none;"><h1>YOU LOST!</h1></div>
+
+                            <!-- <p>Press the replay button above to restart</p> -->
+                            <div id="setting">
+                                <button id="restart"><h3>Replay</h3></button><br>
+                                <button id="homeFromGame"><h3>Home</h3></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </body>
+
+   
+</html>

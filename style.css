@@ -1,0 +1,116 @@
+
+h1{
+    text-align: center;
+}
+ol{
+    text-align: left;
+}
+.clr{
+    clear:both;
+}
+@media(min-width:468px){
+    .edit,.row1{
+        display: flex; /*puts container side by side */
+    }
+}
+.row1 div{
+    text-align: center;
+}
+.header{
+    display: flex;
+}
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+
+    line-height:1.6em;
+}
+.header div{
+    line-height: 0.3;
+    text-align: center;
+}
+.box-2{
+    border: 3px solid #ccc; /* Outest box */
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#instructions, #player, #home {
+    width: 400px;
+    margin: 10px;
+}
+
+
+/* ---- CONTAINERS ---- */
+.containers{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* ---- FOOTER ---- */
+html, body {
+    height: 98%;
+}
+#main-container{
+    min-height: 100%;
+}
+.container{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+.game{
+    width: 65%;
+}
+.score{
+    width: 35%;
+    border: 1px #ccc solid;
+    z-index: 1;
+}
+.score button{
+    width: 150px;
+    margin: 5px;
+}
+.score h3{
+    line-height: 0.3em;
+}
+
+/* GRID */
+.row{
+    display: flex;
+    width: 312px;
+}
+.row div{
+    text-align: center;
+    border: 2px black solid;
+}
+
+.col{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.grid {
+    position: relative;
+    left: 50%;
+    margin-left: -170px;
+    padding: 10px;
+}
+/* 
+#messageT h1, #messageW h1, #messageL h1{
+    padding-top: 25px;
+}
+ */
